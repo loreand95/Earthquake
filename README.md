@@ -8,7 +8,7 @@
 * Trigger a notification when occurred a new event using a background service
 
 ## Resources
-Get an APY Key from https://developers.google.com/maps/documentation/android-sdk/signup  and add on `Earthquake/app/src/debug/res/values/google_maps_api.xml`
+Get an APY Key from https://developers.google.com/maps/documentation/android-sdk/signup  and add on `res/values/google_maps_api.xml`
 
 Http request: http://webservices.rm.ingv.it/fdsnws/event/1/query
 
