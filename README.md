@@ -8,6 +8,8 @@
 * Trigger a notification when occurred a new event using a background service
 
 ## Resources
+Get an APY Key from https://developers.google.com/maps/documentation/android-sdk/signup  and add on `Earthquake/app/src/debug/res/values/google_maps_api.xml`
+
 Http request: http://webservices.rm.ingv.it/fdsnws/event/1/query
 
 GET Parameters:
@@ -15,6 +17,7 @@ GET Parameters:
 * endtime=[date, in format “yyyy-mm-dd HH:ii:ss”] format=[string, text|xml|kml]
 * orderby=[string, time|time-asc|magnitude|magnitude-asc] minmag=[number]
 * maxmag=[number] lat=[double]&lon=[double]&maxradiuskm=[number]
+
  
 ## Screenshot
 ![screenshot](https://user-images.githubusercontent.com/34028703/50698113-63d16a80-1044-11e9-924a-81bf31ac2bf6.jpg)
